@@ -1,34 +1,36 @@
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/bulutone/RisikoDetektiv/main/cover.png)
+![RisikoDetektiv](cover.png)
 
 
 # RisikoDetektiv Telegram Kanal
 
-RisikoDetektiv ist ein Telegram-Kanal, der erstellt wurde, um Cybersecurity-Bedrohungen zu verfolgen und Benutzer darüber zu informieren. Der Kanal verwendet Metadaten von Open-Source-Plattformen, um Echtzeitinformationen über Cybersecurity-Angriffe bereitzustellen.
+> [!IMPORTANT]
+> **Dieses Projekt wurde im September 2026 eingestellt.** Der Kanal veröffentlicht keine neuen Beiträge mehr, und dieses Repository ist archiviert (nur noch lesbar).
+>
+> Aktuelle Informationen zu Ransomware-Angriffen in Deutschland bieten zum Beispiel [ransomware.live](https://www.ransomware.live/country/DEU) und das [BSI](https://www.bsi.bund.de).
 
-📜 License
-RisikoDetektiv is [licensed](LICENSE.md) under unlicense.org
+RisikoDetektiv war ein Telegram-Kanal ([@RisikoDetektiv](https://t.me/RisikoDetektiv)), der Cybersecurity-Bedrohungen verfolgte. Er meldete automatisch, wenn Organisationen aus Deutschland auf den Leak-Seiten von Ransomware-Gruppen genannt wurden. Grundlage waren Metadaten von Open-Source-Plattformen.
+
+## Warum eingestellt?
+
+- Die ursprünglich genutzte Datenquelle steht in dieser Form nicht mehr zur Verfügung; [ransomwatch](https://github.com/joshhighet/ransomwatch) ist seit März 2026 archiviert.
+- Spezialisierte Tracker wie [ransomware.live](https://www.ransomware.live) decken das Thema inzwischen umfassend und mit eigenen Schnittstellen ab.
+
+## Status des Codes
+
+`main.py` ist nur noch aus historischen Gründen enthalten. Das Skript ist in dieser Form nicht lauffähig: Die abgefragte Datenquelle existiert nicht mehr, und das Skript enthält bekannte Fehler. Bitte nicht produktiv einsetzen.
 
 ⚠️ **Haftungsausschluss:**
-Alle über den Kanal bereitgestellten Informationen stammen aus öffentlichen Quellen, und es werden keine sensiblen Informationen gesammelt. Der Kanal zielt darauf ab, Benutzer mit aktuellen Informationen über Cybersecurity zu versorgen; in diesem Kontext übernimmt er keine Garantien oder Haftungen. Benutzer sind dafür verantwortlich, diese Informationen unter ihrer eigenen Verantwortung zu bewerten.
+Die Beiträge des Kanals gaben Behauptungen von Ransomware-Gruppen auf deren Leak-Seiten wieder und stellten keine Bestätigung eines Angriffs dar. Alle Informationen stammten aus öffentlichen Quellen; für ihre Richtigkeit wird keine Gewähr übernommen.
 
-🔒 **Datenschutzrichtlinie:**
-RisikoDetektiv verwendet ausschließlich Metadaten, um Informationen bereitzustellen, und speichert oder teilt keine sensiblen Informationen. Der Schutz der Benutzerdaten hat oberste Priorität, und entsprechende Maßnahmen wurden ergriffen.
+🔒 **Datenschutz:**
+Der Kanal verwendete ausschließlich Metadaten aus öffentlichen Quellen, zum Beispiel den Namen der Organisation, das Datum und die Tätergruppe.
 
-🔄 **Aktualisierungen:**
-Der Kanalinhalt wird regelmäßig aktualisiert, und Verbesserungen werden basierend auf dem Feedback der Benutzer vorgenommen. Detaillierte Informationen zu den Aktualisierungen finden Sie im [Änderungsprotokoll](CHANGELOG.md).
+## Credits
 
-## Verwendung
+1. Julien Mousqueton – [ransomware.live](https://www.ransomware.live)
+2. Josh Highet – [ransomwatch](https://github.com/joshhighet/ransomwatch) (seit März 2026 archiviert)
+3. Open-Source-Nachrichtenseiten
 
-1. Abonnieren Sie den Kanal [über Telegram](https://t.me/RisikoDetektiv).
-2. Verfolgen Sie aktuelle Informationen zur Cybersicherheit.
-3. Informieren Sie sich über Sicherheitsbedrohungen durch Beiträge im Kanal.
+## Lizenz
 
-   
-🤩 Credits
-
-1.  Julien Mousqueton [Github Projeckte -  Ransomwarelive](https://github.com/JMousqueton/ransomware.live).
-2.  Josh Highet [Github Projeckte -  Ransomwarewatch](https://github.com/joshhighet/ransomwatch).
-3.  Open-Source-Nachrichtenseiten
----
-
-**Hinweis:** Der Kanalinhalt kann Informationen Open-Source-Datenquellen verwenden. Die Genauigkeit dieser Informationen kann jedoch nicht garantiert werden, und Benutzer sollten ihre eigenen Bewertungen vornehmen.
+RisikoDetektiv ist unter der [Unlicense](LICENSE.md) veröffentlicht (Public Domain).
